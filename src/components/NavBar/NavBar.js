@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <nav className="nav-bar">
       <div className="image-section">
-        <a href="/"><img className="image" alt="" src="/images/st-logo.jpg"></img></a>
+        <a href="/"><img className="image" alt="" src="/images/st.jpg"></img></a>
       </div>
       <div className="nav-links">
       <a className="links" href="/projects">Projects</a>

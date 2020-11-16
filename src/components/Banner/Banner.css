@@ -1,0 +1,27 @@
+.banner {
+  background-color: black;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner-img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.banner-heading {
+  color: white;
+}
+
+.check {
+  text-decoration: none;
+  color: white;
+}
+
+.check:hover {
+  color: red;
+}
+
