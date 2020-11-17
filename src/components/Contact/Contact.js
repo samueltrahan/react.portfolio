@@ -31,7 +31,7 @@ export default function Contact() {
 
   const handleChange = e => setFormData({...formData, [e.target.name]: e.target.value})
   return (
-    <section className="contact-me-section">
+    <section id="contact" className="contact-me-section">
     <div className="contact-section">
       <form id="contact-message-form" name="samuel" onSubmit={handleSubmit} data-netlify="true" >
         <div className="form-half">
