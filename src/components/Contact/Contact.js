@@ -15,7 +15,7 @@ export default function Contact() {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({"form-name": 'cinque', ...formData}),
+      body: encode({"form-name": 'samuel', ...formData}),
     })
       .then(() =>
         alert(
@@ -32,8 +32,9 @@ export default function Contact() {
   const handleChange = e => setFormData({...formData, [e.target.name]: e.target.value})
   return (
     <section id="contact" className="contact-me-section">
+      <h1 className="contact-me-header">Contact Me</h1>
     <div className="contact-section">
-      <form id="contact-message-form" name="samuel" onSubmit={handleSubmit} data-netlify="true" netlify>
+      <form id="contact-message-form" name="samuel" onSubmit={handleSubmit} data-netlify="true">
         <div className="form-half">
           <label className="label" htmlFor="name">Name</label><br />
           <input value={formData.name} onChange={handleChange} type="text" name="name" id="name" className="name"></input>
@@ -48,10 +49,10 @@ export default function Contact() {
         </div>
         <ul className="btns">
           <li className="list">
-            <input className="input-btn" type="submit" value="Send Message"></input>
+            <input className="input-btn" type="submit" value="Send Message" />
           </li>
           <li className="list">
-            <input className="input-btn" type="reset" value="Clear"></input>
+            <input className="input-btn" type="reset" value="Clear" />
           </li>
         </ul>
       </form>

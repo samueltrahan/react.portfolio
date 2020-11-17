@@ -2,7 +2,7 @@
   background-color: goldenrod;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 400px;
+  height: 450px;
 }
 
 .contact-section {
@@ -92,4 +92,8 @@
   flex-direction: column;
   color: white;
   font-size: 20px;
+}
+
+.contact-me-header {
+  text-align: center;
 }
