@@ -4,6 +4,7 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar';
 import Banner from './components/Banner/Banner';
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Pic01 from './Assets/pic01.jpg';
 import Pic02 from "./Assets/trippin.png";
@@ -21,6 +22,7 @@ export default function App() {
       <Projects path="https://streamer-62w1q7j4l.vercel.app/" image={Pic03} head="React" title="Streamer" paragraph="Streamer is a React application that keeps track of my favorite streamers.  The application shows the streamers most recent youtube videos and their twitter feeds.  Using the YouTube API and the Twitter API."/>
       <Projects path="https://www.ibeatlogan.com" image={Pic04} title="iBeatLogan" head="React" paragraph="iBeatLogan is a React application made to keep track of games between friends.  A friend and I made this app so that when a new game is submitted it sends a text to Logan with a little trash talk using the Twilio API." />
       </div>
+      <Contact />
       <Footer />
     </Router>
   )
