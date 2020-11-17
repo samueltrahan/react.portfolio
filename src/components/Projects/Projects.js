@@ -5,6 +5,7 @@ import Pic01 from "../../Assets/pic01.jpg";
 
 export default function Projects({path, image, head, title, paragraph}) {
   return (
+    <>
     <a id="projects" target="_blank" rel="noreferrer" className="project-links" href={path}>
       <div className="cards">
         <div className="card-img">
@@ -28,5 +29,6 @@ export default function Projects({path, image, head, title, paragraph}) {
         </div>
       </div>
     </a>
+    </>
   );
 }
