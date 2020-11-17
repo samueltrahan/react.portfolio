@@ -18,7 +18,10 @@ export default function App() {
     <Router>
       <NavBar />
       <Route exact path="/templates" render={() => 
-      <Templates />
+      <div>
+        <Templates />
+        <Footer />
+      </div>
       }></Route>
       <Route exact path="/" render={() => 
       <div>

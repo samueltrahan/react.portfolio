@@ -18,8 +18,23 @@ export default function Templates() {
           </section>
         </a>
         <a className="morning" target="_blank" rel="noreferrer" href="https://morning.samueltrahan.com">
-          <section>
+          <section className="morning-logo">
             <h1 className="morning-head">Morning</h1>
+          </section>
+        </a>
+        <a className="elite" target="_blank" rel="noreferrer" href="https://elite.samueltrahan.com">
+        <section>
+          <h1 className="elite-head">Elite</h1>
+        </section>
+        </a>
+        <a className="moon" target="_blank" rel="noreferrer" href="https://moon.samueltrahan.com">
+          <section className="moon-logo">
+            <h1 className="moon-head">Moon</h1>
+          </section>
+        </a>
+        <a className="ambition" target="_blank" rel="noreferrer" href="https://ambition.samueltrahan.com">
+          <section className="ambition-logo">
+            <h1 className="ambition-head">Ambition</h1>
           </section>
         </a>
       </div>

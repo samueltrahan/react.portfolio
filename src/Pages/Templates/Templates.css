@@ -4,6 +4,7 @@ body {
 
 .heading {
   text-align: center;
+  height: 200px;
 }
 
 .section {
@@ -71,12 +72,6 @@ body {
 
 .morning {
   grid-column: 3/4;
-  background: url(../../Assets/morning-blog.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: white;
   border-radius: 5px;
   width: 400px;
   border: 1px solid black;
@@ -85,9 +80,108 @@ body {
   text-decoration: none;
 }
 
+.morning-logo {
+  background: url(../../Assets/morning-blog.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
 .morning-head {
   float: right;
   margin-right: 10px;
   color: gold;
   text-shadow: 1px 1px 1px black;
+}
+
+.morning-head:hover {
+  color: black;
+}
+
+.elite {
+  grid-column: 1/2;
+  background: url(../../Assets/elite.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  border-radius: 5px;
+  width: 400px;
+  border: 1px solid black;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  text-decoration: none;
+}
+
+.elite-head {
+  float: right;
+  margin-right: 10px;
+  color: red;
+}
+
+.elite-head:hover {
+  color: white;
+}
+
+.moon {
+  grid-column: 2/3;
+  background: linear-gradient(purple, blue);
+  border-radius: 5px;
+  width: 400px;
+  border: 1px solid black;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  text-decoration: none;
+}
+
+.moon-logo {
+  background: url(../../Assets/moon-logo.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+.moon-head {
+  float: right;
+  margin-right: 10px;
+  color: whitesmoke;
+}
+
+.moon-head:hover {
+  color: black;
+}
+
+.ambition {
+  grid-column: 3/4;
+  background: rgb(49, 255, 188);
+  border-radius: 5px;
+  width: 400px;
+  border: 1px solid black;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  text-decoration: none;
+}
+
+.ambition-logo {
+  background: url(../../Assets/ambition.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+.ambition-head {
+  float: right;
+  margin-right: 10px;
+  color: rgb(83, 77, 194)
+}
+
+.ambition-head:hover {
+  color: white;
 }
