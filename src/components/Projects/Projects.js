@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Projects.css";
-import Pic01 from "../../Assets/pic01.jpg";
 
 export default function Projects({path, image, head, title, paragraph}) {
   return (

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Templates.css';
-import Pic06 from '../../Assets/FINESSE.png';
 
 export default function Templates() {
   return (
