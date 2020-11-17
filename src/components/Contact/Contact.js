@@ -33,7 +33,7 @@ export default function Contact() {
   return (
     <section id="contact" className="contact-me-section">
     <div className="contact-section">
-      <form id="contact-message-form" name="samuel" onSubmit={handleSubmit} data-netlify="true" >
+      <form id="contact-message-form" name="samuel" onSubmit={handleSubmit} data-netlify="true" netlify>
         <div className="form-half">
           <label className="label" htmlFor="name">Name</label><br />
           <input value={formData.name} onChange={handleChange} type="text" name="name" id="name" className="name"></input>
