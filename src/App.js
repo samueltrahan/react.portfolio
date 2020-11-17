@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { useHistory } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Banner from "./components/Banner/Banner";
@@ -15,11 +14,7 @@ import Pic05 from "./Assets/Heart-page.png";
 import Templates from "./Pages/Templates/Templates";
 
 export default function App() {
-  const history = useHistory();
 
-  const buttonClick = () => {
-    history.push("/templates");
-  };
 
   return (
     <>
@@ -78,14 +73,14 @@ export default function App() {
                   paragraph="HEART is a full MERN stack application.  It is used to keep track of workouts, things to do, and healthy meals. I made this application as my final project in the coding boot camp that I attended at General Assembly."
                 />
               </div>
-              <div className="template-section">
+              <form method="get" action="/templates" className="template-section">
                 <h1 className="template-header">
                   Check out some templates I've made using React
                 </h1>
-                <button onClick={buttonClick} className="template-btn">
+                <button type="submit" className="template-btn">
                   React Templates
                 </button>
-              </div>
+              </form>
               <Contact />
               <Footer />
             </div>

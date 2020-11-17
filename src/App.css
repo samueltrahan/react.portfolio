@@ -32,5 +32,6 @@ body {
 }
 
 .template-btn:hover {
-  background-color: whitesmoke;
+  background-color: rgb(209, 206, 206);
+  color: red;
 }
