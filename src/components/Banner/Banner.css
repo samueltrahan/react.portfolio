@@ -13,12 +13,12 @@
 }
 
 .banner-heading {
-  color: white;
+  color: goldenrod;
 }
 
 .check {
   text-decoration: none;
-  color: white;
+  color: gold;
 }
 
 .check:hover {

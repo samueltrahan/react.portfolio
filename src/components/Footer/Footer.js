@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="copy-right">
-        <p className="copy">&copy; 2020 React</p>
+        <p className="copy">React &copy; 2020</p>
         <p className="copy">Theme and Design by Samuel Trahan</p>
       </div>
       <div className="social-links">
