@@ -13,7 +13,7 @@ export default function Projects({path, image, head, title, paragraph}) {
             className="project-img"
             src={image}
             style={{
-              width: "37vw",
+              width: "25vw",
               height: "180px",
               borderRadius: "10px 10px 0 0",
             }}

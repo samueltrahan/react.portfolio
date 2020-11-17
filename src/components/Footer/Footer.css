@@ -1,0 +1,50 @@
+.footer {
+  background-color: black;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.copy-right {
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+  color: white;
+}
+
+.github {
+  color: white;
+  margin-right: 20px;
+}
+
+.twitter {
+  color: white;
+}
+
+.linked {
+  color: white;
+  margin-right: 20px;
+}
+
+.social-links {
+  grid-column: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github:hover {
+  color: red;
+}
+
+.linked:hover {
+  color: red;
+}
+
+.twitter:hover {
+  color: red;
+}
