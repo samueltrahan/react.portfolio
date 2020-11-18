@@ -11,6 +11,7 @@ export default function Contact() {
   const [formData, setFormData] = useState({});
 
   const handleSubmit = event => {
+    event.preventDefault();
     
     fetch('/', {
       method: 'POST',
@@ -24,7 +25,6 @@ export default function Contact() {
       )
       .catch(error => alert(error))
     document.getElementById('contact-message-form').reset()
-    event.preventDefault()
   }
 
 
