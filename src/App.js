@@ -12,6 +12,7 @@ import Pic03 from "./Assets/streamer-heading.png";
 import Pic04 from "./Assets/ibeatlogan.png";
 import Pic05 from "./Assets/Heart-page.png";
 import Templates from "./Pages/Templates/Templates";
+import About from './Pages/About/About';
 
 export default function App() {
 
@@ -30,6 +31,14 @@ export default function App() {
             </div>
           )}
         ></Route>
+        <Route exact path="/about" render={() => (
+          <div>
+            <About />
+            <Footer />
+          </div>
+        )}>
+
+        </Route>
         <Route
           exact
           path="/"

@@ -63,7 +63,7 @@
 }
 
 .input-btn:hover {
-  background-color: red;
+  background-color: greenco;
   color: white;
 }
 
@@ -72,13 +72,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
 .email-add {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .email-add:hover {
@@ -90,7 +90,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
