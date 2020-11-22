@@ -7,7 +7,10 @@ export default function Banner() {
       <img className="banner-img" alt="" src="/images/samuel.png"></img>
       <h1 className="banner-heading">Welcome, My name is Samuel Trahan</h1>
       <h3 className="banner-heading">I'm a Software Engineer</h3>
-      <a className="check" href="#projects">Check out my work!</a>
+      <div className="banner-links-section">
+      <a className="banner-links" href="#projects">My Projects</a>
+      <a className="banner-links" href="#contact">Contact Me</a>
+      </div>
     </div>
   )
 }

@@ -25,3 +25,24 @@
   color: red;
 }
 
+.banner-links-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-links {
+  border: 1px solid white;
+  text-decoration: none;
+  height: 40px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+}
+
+.banner-links:hover {
+  background-color: goldenrod;
+}
