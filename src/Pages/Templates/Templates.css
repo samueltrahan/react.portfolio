@@ -4,12 +4,12 @@ body {
 
 .heading {
   text-align: center;
-  height: 200px;
+  height: 100px;
 }
 
 .section {
   display: grid;
-  height: 1000px;
+  height: 1500px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr ;
   
@@ -183,5 +183,35 @@ body {
 }
 
 .ambition-head:hover {
+  color: white;
+}
+
+.store {
+  grid-column: 1/2;
+  background: black;
+  border-radius: 5px;
+  width: 400px;
+  border: 1px solid black;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  text-decoration: none;
+}
+
+.store-logo {
+  background: url(../../Assets/store-logo.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+.store-head {
+  float: right;
+  margin-right: 10px;
+  color: rgb(112, 155, 55);
+}
+
+.store-head:hover {
   color: white;
 }

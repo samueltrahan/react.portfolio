@@ -36,6 +36,11 @@ export default function Templates() {
             <h1 className="ambition-head">Ambition</h1>
           </section>
         </a>
+        <a className="store" target="_blank" rel="noreferrer" href="https://store.samueltrahan.com">
+          <section className="store-logo">
+            <h1 className="store-head">React Store</h1>
+          </section>
+        </a>
       </div>
     </div>
   )

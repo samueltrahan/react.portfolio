@@ -11,6 +11,7 @@ import Pic02 from "./Assets/trippin.png";
 import Pic03 from "./Assets/streamer-heading.png";
 import Pic04 from "./Assets/ibeatlogan.png";
 import Pic05 from "./Assets/Heart-page.png";
+import Pic06 from './Assets/gamotivate.png';
 import Templates from "./Pages/Templates/Templates";
 import About from './Pages/About/About';
 
@@ -59,6 +60,13 @@ export default function App() {
                   head="MERN"
                   title="Trippin'"
                   paragraph="Trippin' is a full MERN stack application for planning trips and searching for things to do on your vacation. This application was made by the team at Cinque Web Development."
+                />
+                <Projects 
+                path="ga-motivate.herokuapp.com" 
+                image={Pic06} 
+                head="MERN"
+                title="GA Motivate"
+                paragraph="Ga Motivate is full MERN stack application made during a hackathon with a full team of engineers and designers.  This application was intended to help GA alumni stay connect and motivated during their job search."
                 />
                 <Projects
                   path="https://streamer-62w1q7j4l.vercel.app/"
