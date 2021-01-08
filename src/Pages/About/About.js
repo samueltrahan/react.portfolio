@@ -13,13 +13,16 @@ export default function About() {
         <li className="skill">HTML</li>
         <li className="skill">CSS</li>
         <li className="skill">Gatsby</li>
+        <li className="skill">GIT</li>
         <li className="skill">Node.js</li>
         <li className="skill">MongoDB</li>
       </ul>
       <ul className="experience"><h3>Experienced Skills:</h3>
+        <li className="skill">Redux</li>
         <li className="skill">Python</li>
         <li className="skill">Django</li>
         <li className="skill">Sass</li>
+        <li className="skill">AWS</li>
         <li className="skill">React Native</li>
       </ul>
       <h3> I recently started a company called Cinque Web Development.  We design great functional and user friendly apps.  Driven by an eye for design, we truly focus on getting the best looking application, and are constantly pushing the envelop when it comes to project ideas. 
