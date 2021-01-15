@@ -12,7 +12,7 @@ export default function Projects({path, image, head, title, paragraph}) {
             className="project-img"
             src={image}
             style={{
-              width: "25vw",
+              width: "200px",
               height: "180px",
             }}
           ></img>
