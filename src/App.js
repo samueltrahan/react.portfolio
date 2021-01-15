@@ -62,7 +62,7 @@ export default function App() {
                   paragraph="Trippin' is a full MERN stack application for planning trips and searching for things to do on your vacation. This application was made by the team at Cinque Web Development."
                 />
                 <Projects 
-                path="ga-motivate.herokuapp.com" 
+                path="https://ga-motivate.herokuapp.com" 
                 image={Pic06} 
                 head="MERN"
                 title="GA Motivate"
